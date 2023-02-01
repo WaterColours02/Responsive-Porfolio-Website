@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Hunter Cheveldave Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <main class="main-page">
+      <div class="left-nav">
+        <div class="left-nav-box">
+          <div class="left-nav-link-container">
+            <a
+              class="left-nav-link linked-in"
+              href="https://www.linkedin.com/in/hunter-cheveldave-80726676/"
+              target="”_blank”"
+              >L / I</a
+            >
+            <ion-icon
+              class="left-nav-icon linked-in-icon show-icon"
+              name="logo-linkedin ."
+            ></ion-icon>
+          </div>
+          <div class="left-nav-link-container">
+            <a
+              class="left-nav-link"
+              href="https://github.com/WaterColours02"
+              target="”_blank”"
+              >G / H</a
+            >
+            <ion-icon
+              class="left-nav-icon"
+              name="logo-github"
+            ></ion-icon>
+          </div>
+          <div class="left-nav-link-container">
+            <a
+              class="left-nav-link"
+              href="mailto:huntercheveldave@gmail.com"
+              target="”_blank”"
+              >E / M</a
+            >
+            <ion-icon
+              class="left-nav-icon"
+              name="mail-outline"
+            ></ion-icon>
+          </div>
+
+          <p class="copyright">&copy; 2023</p>
+        </div>
+      </div>
+
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hunter Cheveldave</h1>
+            <p class="hero-description">Front-End Web developer</p>
+          </div>
+
+          <div class="giant-link-box">
+            <a class="giant-link work-link">Work</a>
+            <a class="giant-link about-link">About</a>
+            <a class="giant-link contact-link">Contact</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- REMOVE OPEN CLASS TO REVEAL MAIN PAGE -->
+    <!-- CONTACT SECTION  -->
+    <section class="section-contact modal-section-background">
+      <ion-icon
+        class="back-arrow"
+        name="arrow-back-outline"
+      ></ion-icon>
+      <div class="section-container">
+        <h2 class="section-heading">Hello</h2>
+        <p class="section-text">
+          Thanks for reaching out. I'll get back to you as soon as possible.
+        </p>
+      </div>
+
+      <form
+        action=""
+        class="contact-form"
+      >
+        <div class="input-wrapper">
+          <!-- <label for="fist-name" class="form-label">First name</label> -->
+          <input
+            class="first-name"
+            name="fist-name-input"
+            type="text"
+            placeholder="First Name"
+          />
+        </div>
+        <div class="input-wrapper">
+          <!-- <label for="last-name" class="form-label">Last name</label> -->
+          <input
+            class="last-name"
+            name="last-name-input"
+            type="text"
+            placeholder="Last Name"
+          />
+        </div>
+        <div class="input-wrapper">
+          <!-- <label for="email" class="form-label">Email</label> -->
+          <input
+            type="email"
+            class="email-input"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="input-wrapper">
+          <!-- <label for="message" class="form-label">Message</label> -->
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            class="message"
+            placeholder="Type your message here..."
+          ></textarea>
+        </div>
+        <button class="btn-send">Send</button>
+      </form>
+    </section>
+
+    <section class="section-about modal-section-background">
+      <ion-icon
+        class="back-arrow"
+        name="arrow-back-outline"
+      ></ion-icon>
+      <div class="section-container about-container">
+        <h2 class="section-heading">About me</h2>
+        <p class="section-text">
+          I'm a self-taught front-end developer looking to create new and
+          exciting user experiences
+        </p>
+
+        <h2 class="section-subheading skills-heading">My skills</h2>
+        <div class="skills-container">
+          <p>REACT</p>
+          <p>SCSS</p>
+          <p>JS</p>
+          <p>CSS</p>
+          <p>HTML5</p>
+        </div>
+        <a
+          class="resume"
+          href=""
+          >Resume</a
+        >
+      </div>
+    </section>
+
+    <!-- WORK PAGE -->
+    <!-- WORK PAGE LEFT NAV BAR -->
+    <section class="section-work modal-section-background">
+      <ion-icon
+        class="back-arrow"
+        name="arrow-back-outline"
+      ></ion-icon>
+
+      <!-- WORK SECTION -->
+      <div class="section-work-container">
+        <div class="work-text-box">
+          <h2 class="work-heading">Work</h2>
+          <p class="work-description">A few projects worth sharing</p>
+        </div>
+        <div class="project-giant-link-box">
+          <!-- <div class="project-card">
+            <p class="project-giant-link">Tix-it</p>
+            <div class="tech-stack">
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-react"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-firebase"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-css3"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-html5"
+              ></ion-icon>
+              <a href="">
+                <ion-icon
+                  class="tech-stack-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+            </div>
+          </div> -->
+          <div class="project-card">
+            <p class="project-giant-link">Portfolio</p>
+            <div class="tech-stack">
+              <a
+                href=""
+                class="project-githb-link"
+              >
+                <ion-icon
+                  class="tech-stack-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-css3"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-html5"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-javascript"
+              ></ion-icon>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-giant-link">Bug-tracker</p>
+            <div class="tech-stack">
+              <a
+                href=""
+                class="project-githb-link"
+              >
+                <ion-icon
+                  class="tech-stack-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-react"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-firebase"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-css3"
+              ></ion-icon>
+              <ion-icon
+                class="tech-stack-icon"
+                name="logo-html5"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
