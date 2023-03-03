@@ -133,10 +133,10 @@ body {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
 
-  margin-top: 25vh;
+  margin-top: 8vh;
   margin-left: 2.4rem;
 
-  gap: 6vh;
+  gap: 8vh;
 }
 
 .left-nav-link,
@@ -389,9 +389,18 @@ input:-webkit-autofill:active {
   position: absolute;
 }
 
+/* .about-back-arrow-container {
+  display: flex;
+}
+
+.about-back-arrow {
+  flex: start;
+} */
+
 .about-section-container {
-  position: relative;
   display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-container {
@@ -402,7 +411,7 @@ input:-webkit-autofill:active {
   align-items: center;
   position: absolute;
   top: 20vh;
-  left: 20vw;
+  /* margin: auto 0; */
 }
 
 .skills-heading {
