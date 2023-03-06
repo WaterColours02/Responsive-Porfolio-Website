@@ -466,14 +466,13 @@ input:-webkit-autofill:active {
 }
 
 .section-work-container {
-  margin: 18rem auto;
+  /* margin-top: 20vh; */
+  margin: 25vh auto;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
-  /* padding: 0 9.6rem; */
-  /* justify-content: space-around; */
+
   gap: 4rem;
-  /* align-items: baseline; */
-  /* justify-items: center; */
+
   transform: translateY(6rem);
 }
 
@@ -525,7 +524,7 @@ input:-webkit-autofill:active {
   line-height: 0.9;
   row-gap: 3.4rem;
   transform: translateY(2rem);
-  /* gap: 2rem; */
+  gap: 14rem;
 }
 
 .project-giant-link,
@@ -605,4 +604,47 @@ input:-webkit-autofill:active {
 .btn-send:active {
   cursor: pointer;
   background: #c8c8c8;
+}
+
+.project-description {
+  font-size: 1.8rem;
+  margin-left: 2.2rem;
+}
+
+.project-tech-stack {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.project-tech-stack p {
+  font-size: 1.6rem;
+  margin-left: 2.2rem;
+  
+  color: #e9ecef;
+}
+.project-demo {
+  font-size: 2.6rem;
+  margin-left: 3.2rem;
+  /* margin-bottom: 1.8rem; */
+
+  color: #e9ecef;
+}
+
+.project-links {
+  display: flex;
+  gap: 4.2rem;
+  margin-bottom: 1.8rem
+}
+
+.project-github:link {
+  color: #dec68d;
+  font-size: 2.4rem;
+
+  transition: 0.4s;
+}
+
+.project-github:hover,
+.project-github:active,
+.project-github:visited {
+  color: #de928d;
 }
