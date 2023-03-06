@@ -133,7 +133,7 @@ body {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
 
-  margin-top: 8vh;
+  margin-top: 24vh;
   margin-left: 2.4rem;
 
   gap: 8vh;
