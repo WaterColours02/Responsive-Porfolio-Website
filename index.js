@@ -64,6 +64,11 @@ backArrows.forEach((backArrow) => {
   });
 });
 
+// Project Section BACK ARROW
+
+
+
+
 const contactSend = document.querySelector(".btn-send");
 contactSend.addEventListener("click", (event) => {
   event.preventDefault();
