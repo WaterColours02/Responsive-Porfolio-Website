@@ -16,6 +16,10 @@
       href="style.css"
     />
     <link
+      rel="stylesheet"
+      href="./querries.css"
+    />
+    <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
     />
@@ -98,7 +102,7 @@
         name="arrow-back-outline"
       ></ion-icon>
       <div class="section-container">
-        <h2 class="section-heading">Hello</h2>
+        <h2 class="section-heading">HELLO</h2>
         <p class="section-text">
           Thanks for reaching out. I'll get back to you as soon as possible.
         </p>
@@ -151,30 +155,34 @@
     </section>
 
     <section class="section-about modal-section-background">
-      <ion-icon
-        class="back-arrow"
-        name="arrow-back-outline"
-      ></ion-icon>
-      <div class="section-container about-container">
-        <h2 class="section-heading">About me</h2>
-        <p class="section-text">
-          I'm a passionate software developer looking to create new and exciting
-          user experiences
-        </p>
-
-        <h2 class="section-subheading skills-heading">My skills</h2>
-        <div class="skills-container">
-          <p>REACT</p>
-          <p>SCSS</p>
-          <p>JS</p>
-          <p>CSS</p>
-          <p>HTML5</p>
+      <div class="about-section-container">
+        <div class="about-back-arrow-contianer">
+          <ion-icon
+            class="back-arrow"
+            name="arrow-back-outline"
+          ></ion-icon>
         </div>
-        <a
-          class="resume"
-          href=""
-          >Resume</a
-        >
+        <div class="section-container about-container">
+          <h2 class="section-heading">About me</h2>
+          <p class="section-text">
+            I'm a passionate software developer looking to create new and
+            exciting user experiences
+          </p>
+
+          <h2 class="section-subheading skills-heading">My skills</h2>
+          <div class="skills-container">
+            <p>REACT</p>
+            <p>SCSS</p>
+            <p>JS</p>
+            <p>CSS</p>
+            <p>HTML5</p>
+          </div>
+          <a
+            class="resume"
+            href=""
+            >Resume</a
+          >
+        </div>
       </div>
     </section>
 
@@ -221,7 +229,7 @@
             </div>
           </div> -->
           <div class="project-card">
-            <p class="project-giant-link">Portfolio</p>
+            <a class="project-giant-link">Portfolio</a>
             <div class="tech-stack">
               <a
                 href=""
@@ -247,7 +255,12 @@
             </div>
           </div>
           <div class="project-card">
-            <p class="project-giant-link">Bug-tracker</p>
+            <a
+              class="project-giant-link"
+              href="https://bug-hunter-issue-tracking-react-app.netlify.app/"
+              target="”_blank”"
+              >Bug-tracker</a
+            >
             <div class="tech-stack">
               <a
                 href=""

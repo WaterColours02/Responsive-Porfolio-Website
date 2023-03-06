@@ -64,50 +64,6 @@ backArrows.forEach((backArrow) => {
   });
 });
 
-//     addEventListener('click', () => {
-//     console.log('clicked')
-//     const mainPage = document.querySelector('.main-page');
-//     const aboutEl = document.querySelector('.section-about');
-//     const contactEl = document.querySelector('.section-contact');
-//     contactEl.classList.remove('open');
-//     aboutEl.classList.remove('open')
-//     mainPage.classList.remove('hidden');
-// })
-
-//  CONTACT FROM SUBMIT FUNCTIONALITY
-
-// const contactSend = document.querySelector(".btn-send");
-// contactSend.addEventListener("click", (event) => {
-//   event.preventDefault();
-
-//   const firstName = document.querySelector(".first-name").value;
-//   const lastName = document.querySelector(".last-name").value;
-//   const email = document.querySelector(".email-input").value;
-//   var message = document.querySelector(".message").value;
-
-//   const body =
-//     "Name: " +
-//     firstName +
-//     " " +
-//     lastName +
-//     "</br> Email:" +
-//     email +
-//     "</br> Message: " +
-//     message;
-
-//   const submitAlertMessage = `Thank you ${firstName}. Your Message has been sent.`;
-
-//   Email.send({
-//     Host: "smtp.elasticemail.com",
-//     Username: "huntercheveldave@gmail.com",
-//     Password: "F122EDB288F88258553A7845BCBE8EF87242",
-//     To: "huntercheveldave@gmail.com",
-//     Subject: "",
-//     From: email,
-//     Body: body,
-//   }).then((message) => alert(message));
-// });
-
 const contactSend = document.querySelector(".btn-send");
 contactSend.addEventListener("click", (event) => {
   event.preventDefault();
