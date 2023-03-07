@@ -119,6 +119,7 @@ body {
 .section-text {
   font-size: 2.4rem;
   color: #ccc;
+  max-width: 70vw;
 }
 
 /* Left Nav Bar */
@@ -507,6 +508,7 @@ input:-webkit-autofill:active {
   padding: 1.8rem;
   display: grid;
   gap: 2.2rem;
+  margin-right: 3.2rem;
 }
 
 .project-description {
