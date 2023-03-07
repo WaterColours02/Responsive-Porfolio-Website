@@ -470,7 +470,7 @@ input:-webkit-autofill:active {
 
 .section-work-container {
   /* margin-top: 20vh; */
-  margin: 25vh auto;
+  margin: 20vh auto;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
 
@@ -528,7 +528,7 @@ input:-webkit-autofill:active {
   line-height: 0.9;
   row-gap: 3.4rem;
   transform: translateY(2rem);
-  gap: 14rem;
+  gap: 6rem;
 }
 
 .project-giant-link,
@@ -611,24 +611,25 @@ input:-webkit-autofill:active {
 }
 
 .project-description {
-  font-size: 1.8rem;
+  font-size: 1rem;
   margin-left: 2.2rem;
 }
 
 .project-tech-stack {
   display: flex;
-  gap: 3.2rem;
+  gap: 2.2rem;
 }
 
 .project-tech-stack p {
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   margin-left: 2.2rem;
-  
+
   color: #e9ecef;
 }
 .project-demo {
-  font-size: 2.6rem;
+  font-size: 1.2rem;
   margin-left: 3.2rem;
+  font-style: italic;
   /* margin-bottom: 1.8rem; */
 
   color: #e9ecef;
@@ -636,13 +637,12 @@ input:-webkit-autofill:active {
 
 .project-links {
   display: flex;
-  gap: 4.2rem;
-  margin-bottom: 1.8rem
+  gap: 2.8rem;
 }
 
 .project-github:link {
   color: #dec68d;
-  font-size: 2.4rem;
+  font-size: 1rem;
 
   transition: 0.4s;
 }
