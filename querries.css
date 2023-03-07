@@ -50,10 +50,6 @@
     font-size: 1rem;
   }
 
-  /* .project-giant-link {
-    font-size: 6vw;
-  } */
-
   .work-heading {
     font-size: 1.8rem;
   }
@@ -182,5 +178,50 @@
 
 
 @media (max-width: 500px) {
-  
+
+  .giant-link {
+    font-size: 4vh;
+  }
+
+  .left-nav-box {
+    gap: 6vh;
+    padding-top: 3.5vh;
+  }
+
+  .left-nav-link,
+  .left-nav-link:link {
+    font-size: 0.8rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+
+  .section-text {
+    margin-top: 3.2rem;
+    font-size: 1.4rem;
+    padding: 0 2.2rem
+  }
+
+  .about-container {
+    top: 10vh;
+    row-gap: 3.2rem;
+  }
+
+  .skills-heading {
+    margin-top: 3.2rem;
+  }
+
+  .skills-container {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
 }

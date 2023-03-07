@@ -119,7 +119,8 @@ body {
 .section-text {
   font-size: 2.4rem;
   color: #ccc;
-  max-width: 70vw;
+  /* max-width: 70vw; */
+  text-align: center;
 }
 
 /* Left Nav Bar */
@@ -426,6 +427,7 @@ input:-webkit-autofill:active {
   justify-content: center;
   align-items: center;
   justify-self: center;
+  text-decoration: underline;
 }
 
 .skills-container p {
