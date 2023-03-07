@@ -50,9 +50,9 @@
     font-size: 1rem;
   }
 
-  .project-giant-link {
+  /* .project-giant-link {
     font-size: 6vw;
-  }
+  } */
 
   .work-heading {
     font-size: 1.8rem;
@@ -61,6 +61,10 @@
   .work-description {
     font-size: 1.2rem;
   }
+
+.section-heading {
+  margin-top: 10vh;
+}
 
   .section-contact {
     padding-top: 2.2rem;
@@ -73,7 +77,110 @@
   .contact-form input {
     font-size: 1.2rem;
   }
+
+
+
+
+
+  .project-demo { 
+    font-size: 1.6rem; 
+  }
+
+  .project-github:link  {
+    font-size: 1.6rem;
+  }
+
+  .project-card {
+    max-width: 60vw;
+  }
+
+  .project-description{
+    margin-right: 3.2rem;
+    font-size: 1.6rem;
+  }
+
+
+
+
 }
 
 @media (max-width: 950px) {
+
+  .project-demo { 
+    font-size: 1.4rem; 
+  }
+
+  .project-github:link  {
+    font-size: 1.4rem;
+  }
+
+  .project-card {
+    max-width: 60vw;
+  }
+
+  .project-description{
+    margin-right: 3.2rem;
+    font-size: 1.4rem;
+  }
+
+  .project-tech-stack {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .main-page {
+    margin-top: 12vh;
+  }
+
+  .hero {
+    grid-template-rows: 3fr 1fr 1fr  
+  }
+
+  .hero-text-box {
+    grid-row: 3/ span 1;
+    grid-column: 4 / span 3;
+    gap: 0.4rem
+  }
+
+  .heading-primary {
+    font-size: 1.2rem
+  }
+
+  .hero-description {
+    font-size: 1rem
+  }
+
+
+
+
+  .giant-link-box  {
+    grid-column: 3 / span 6;
+  }
+
+  .giant-link{
+    font-size: 6vh;
+  }
+
+  .left-nav-box {
+    gap: 8vh;
+    padding-top: 8vh;
+  }
+
+  .left-nav-link,
+  .left-nav-link:link {
+    font-size: 0.8rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
+@media (max-width: 500px) {
+  
 }
