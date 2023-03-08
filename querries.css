@@ -1,4 +1,4 @@
-@media (max-width: 1550px) {
+@media (max-width: 97em ) {
   .left-nav-box {
     gap: 6vh;
     padding-top: 4vh;
@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 78em) {
   .left-nav-link,
   .left-nav-link:link {
     font-size: 1rem;
@@ -74,9 +74,21 @@
     font-size: 1.2rem;
   }
 
+.section-work-container {
+  grid-template-rows: 1fr 10fr 1fr;
+  gap: 4.8rem
+}
 
 
+  .work-text-box {
+   grid-row: 1 / span 1;
+   grid-column: 14 / span 6;
+  }
 
+  .project-giant-link-box {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 15;
+  }
 
   .project-demo { 
     font-size: 1.6rem; 
@@ -87,7 +99,7 @@
   }
 
   .project-card {
-    max-width: 60vw;
+    /* max-width: 80vw; */
   }
 
   .project-description{
@@ -100,7 +112,7 @@
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 60em) {
 
   .project-demo { 
     font-size: 1.4rem; 
@@ -110,8 +122,19 @@
     font-size: 1.4rem;
   }
 
+
+  .work-text-box {
+    grid-row: 1 / span 1;
+    grid-column: 10 / span 6;
+   }
+
+   .project-giant-link-box {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 13;
+  }
+
   .project-card {
-    max-width: 60vw;
+    /* max-width: 60vw; */
   }
 
   .project-description{
@@ -125,7 +148,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 47em) {
   .main-page {
     margin-top: 12vh;
   }
@@ -174,10 +197,13 @@
   }
 
 
+
+
+
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 32em) {
 
   .giant-link {
     font-size: 4vh;
@@ -219,7 +245,15 @@
     flex-wrap: wrap;
   }
 
+  .work-text-box {
+    grid-row: 1 / span 1;
+    grid-column: 6 / span 6;
+   }
 
+   .project-giant-link-box {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 10;
+  }
 
 
 
