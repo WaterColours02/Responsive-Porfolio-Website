@@ -1,4 +1,4 @@
-@media (max-width: 97em ) {
+@media (max-width: 97em) {
   .left-nav-box {
     gap: 6vh;
     padding-top: 4vh;
@@ -45,6 +45,13 @@
 }
 
 @media (max-width: 78em) {
+  .back-arrow {
+    height: 2.4rem;
+    width: 2.4rem;
+
+    padding: 2.2rem;
+  }
+
   .left-nav-link,
   .left-nav-link:link {
     font-size: 1rem;
@@ -58,9 +65,9 @@
     font-size: 1.2rem;
   }
 
-.section-heading {
-  margin-top: 10vh;
-}
+  .section-heading {
+    margin-top: 10vh;
+  }
 
   .section-contact {
     padding-top: 2.2rem;
@@ -68,76 +75,85 @@
 
   .contact-form {
     gap: 2.2rem;
+    padding: 0 4.4rem;
   }
 
   .contact-form input {
     font-size: 1.2rem;
   }
 
-.section-work-container {
-  grid-template-rows: 1fr 10fr 1fr;
-  gap: 4.8rem
-}
+  .btn-send {
+    padding: 1.2rem 2.2rem;
+  }
 
+  .section-work-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh auto;
+    gap: 6rem;
+  }
 
   .work-text-box {
-   grid-row: 1 / span 1;
-   grid-column: 14 / span 6;
+    /* grid-row: 1 / span 1;
+    grid-column: 14 / span 6; */
+  }
+
+  .work-heading {
+    font-size: 1.4rem;
+  }
+
+  .work-description {
+    font-size: 1rem;
   }
 
   .project-giant-link-box {
-    grid-row: 2 / span 1;
-    grid-column: 3 / span 15;
+    /* grid-row: 2 / span 1;
+    grid-column: 3 / span 15; */
   }
 
-  .project-demo { 
-    font-size: 1.6rem; 
+  .project-demo {
+    font-size: 1.6rem;
   }
 
-  .project-github:link  {
+  .project-github:link {
     font-size: 1.6rem;
   }
 
   .project-card {
-    /* max-width: 80vw; */
+    gap: 1.6rem;
   }
 
-  .project-description{
+  .project-description {
     margin-right: 3.2rem;
     font-size: 1.6rem;
   }
-
-
-
-
 }
 
 @media (max-width: 60em) {
-
-  .project-demo { 
-    font-size: 1.4rem; 
-  }
-
-  .project-github:link  {
+  .project-demo {
     font-size: 1.4rem;
   }
 
+  .project-github:link {
+    font-size: 1.4rem;
+  }
 
   .work-text-box {
     grid-row: 1 / span 1;
-    grid-column: 10 / span 6;
-   }
+    grid-column: 8 / span 6;
+  }
 
-   .project-giant-link-box {
+  .project-giant-link-box {
     grid-row: 2 / span 1;
-    grid-column: 3 / span 13;
+    grid-column: 3 / span 11;
   }
 
   .project-card {
     /* max-width: 60vw; */
   }
 
-  .project-description{
+  .project-description {
     margin-right: 3.2rem;
     font-size: 1.4rem;
   }
@@ -147,38 +163,34 @@
   }
 }
 
-
 @media (max-width: 47em) {
   .main-page {
     margin-top: 12vh;
   }
 
   .hero {
-    grid-template-rows: 3fr 1fr 1fr  
+    grid-template-rows: 3fr 1fr 1fr;
   }
 
   .hero-text-box {
-    grid-row: 3/ span 1;
+    grid-row: 3 / span 1;
     grid-column: 4 / span 3;
-    gap: 0.4rem
+    gap: 0.4rem;
   }
 
   .heading-primary {
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
 
   .hero-description {
-    font-size: 1rem
+    font-size: 1rem;
   }
 
-
-
-
-  .giant-link-box  {
+  .giant-link-box {
     grid-column: 3 / span 6;
   }
 
-  .giant-link{
+  .giant-link {
     font-size: 6vh;
   }
 
@@ -196,15 +208,16 @@
     font-size: 0.8rem;
   }
 
+  /* .message {
+    font-size: 1.2rem;
+  }
 
-
-
-
+  .message::placeholder {
+    font-size: 1.2rem;
+  } */
 }
 
-
 @media (max-width: 32em) {
-
   .giant-link {
     font-size: 4vh;
   }
@@ -223,11 +236,10 @@
     font-size: 0.8rem;
   }
 
-
   .section-text {
     margin-top: 3.2rem;
     font-size: 1.4rem;
-    padding: 0 2.2rem
+    padding: 0 2.2rem;
   }
 
   .about-container {
@@ -247,15 +259,44 @@
 
   .work-text-box {
     grid-row: 1 / span 1;
-    grid-column: 6 / span 6;
-   }
-
-   .project-giant-link-box {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 10;
+    grid-column: 8 / span 6;
   }
 
+  .work-heading {
+    font-size: 1rem;
+  }
 
+  .work-description {
+    font-size: 0.8rem;
+  }
 
+  .section-work-container {
+    gap: 1.6rem;
+  }
 
+  .project-giant-link-box {
+    /* grid-row: 2 / span 1;
+    grid-column: 1 / span 10; */
+    max-width: 90vw;
+    justify-self: center;
+    gap: 1.2rem;
+  }
+
+  .project-demo {
+    font-size: 1rem;
+  }
+
+  .project-github:link {
+    font-size: 1rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0 0;
+  }
+
+  .contact-form {
+    gap: 1.6rem;
+  }
 }
