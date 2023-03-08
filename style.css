@@ -106,7 +106,6 @@ body {
   font-weight: 400;
   letter-spacing: 1.5rem;
   color: #e9ecef;
-  
 }
 
 .section-subheading {
@@ -120,9 +119,9 @@ body {
 .section-text {
   font-size: 2.2rem;
   color: #ccc;
-margin-top: 2.2rem;
+  margin-top: 2.2rem;
   text-align: center;
-  padding: 0 9.2rem
+  padding: 0 9.2rem;
 }
 
 /* Left Nav Bar */
@@ -525,12 +524,12 @@ input:-webkit-autofill:active {
 /* PROJECT LINKS - GIANT TEXT  */
 .project-giant-link-box {
   grid-column: 7 / span 13;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   line-height: 0.9;
   row-gap: 3.4rem;
   transform: translateY(2rem);
-  gap: 6rem;
+  gap: 8rem;
 }
 
 .project-giant-link,
@@ -638,8 +637,8 @@ input:-webkit-autofill:active {
 }
 
 .project-links {
-  display: flex;
-  gap: 2.8rem;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
 }
 
 .project-github:link {

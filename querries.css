@@ -73,9 +73,15 @@
     padding-top: 2.2rem;
   }
 
+  .section-text {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
   .contact-form {
-    gap: 2.2rem;
+    gap: 1.8rem;
     padding: 0 4.4rem;
+    margin: 4.2rem auto;
   }
 
   .contact-form input {
@@ -84,6 +90,7 @@
 
   .btn-send {
     padding: 1.2rem 2.2rem;
+    font-size: 1.6rem;
   }
 
   .section-work-container {
@@ -112,6 +119,11 @@
     grid-column: 3 / span 15; */
   }
 
+  .project-giant-link:link,
+  .project-giant-link {
+    font-size: 8vh;
+  }
+
   .project-demo {
     font-size: 1.6rem;
   }
@@ -126,7 +138,8 @@
 
   .project-description {
     margin-right: 3.2rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -141,7 +154,7 @@
 
   .work-text-box {
     grid-row: 1 / span 1;
-    grid-column: 8 / span 6;
+    grid-column: 7 / span 6;
   }
 
   .project-giant-link-box {
@@ -149,17 +162,48 @@
     grid-column: 3 / span 11;
   }
 
+  .project-giant-link,
+  .project-giant-link:link {
+    font-size: 6vh;
+  }
+
   .project-card {
     /* max-width: 60vw; */
   }
 
+  .project-demo {
+    font-size: 1.2rem;
+  }
+
   .project-description {
     margin-right: 3.2rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding-right: 5.4rem;
   }
 
   .project-tech-stack {
     flex-wrap: wrap;
+  }
+
+  .section-text {
+    font-size: 1.8rem;
+  }
+
+  .skills-heading {
+    margin-top: 4.2rem;
+    font-size: 2.4rem;
+  }
+  .skills-container {
+    gap: 2.4rem;
+  }
+
+  .skills-container p {
+    font-size: 1.4rem;
+  }
+
+  .resume {
+    margin-top: 3.2rem;
   }
 }
 
@@ -215,6 +259,23 @@
   .message::placeholder {
     font-size: 1.2rem;
   } */
+
+  .project-giant-link,
+  .project-giant-link:link {
+    font-size: 4vh;
+  }
+
+  .project-giant-link-box {
+    margin: 8rem auto;
+  }
+
+  .project-tech-stack {
+    gap: 0.8rem;
+  }
+
+  .project-tech-stack p {
+    margin-left: 0.8rem;
+  }
 }
 
 @media (max-width: 32em) {
@@ -259,7 +320,7 @@
 
   .work-text-box {
     grid-row: 1 / span 1;
-    grid-column: 8 / span 6;
+    grid-column: 7 / span 6;
   }
 
   .work-heading {
@@ -279,7 +340,12 @@
     grid-column: 1 / span 10; */
     max-width: 90vw;
     justify-self: center;
-    gap: 1.2rem;
+    gap: 8rem;
+    margin: 4rem auto;
+  }
+
+  .project-links {
+    flex-wrap: nowrap;
   }
 
   .project-github:link {
