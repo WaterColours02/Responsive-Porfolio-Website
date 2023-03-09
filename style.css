@@ -423,8 +423,8 @@ input:-webkit-autofill:active {
 
 .skills-container {
   width: 30%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  gap: 3.2rem;
   justify-content: center;
   align-items: center;
   justify-self: center;
@@ -471,7 +471,7 @@ input:-webkit-autofill:active {
 
 .section-work-container {
   /* margin-top: 20vh; */
-  margin: 20vh auto;
+  margin: 10vh auto;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
 
