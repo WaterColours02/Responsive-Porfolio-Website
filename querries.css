@@ -1,6 +1,6 @@
 @media (max-width: 97em) {
   .left-nav-box {
-    gap: 6vh;
+    gap: 8vh;
     padding-top: 4vh;
   }
 
@@ -241,7 +241,7 @@
 
   .left-nav-link,
   .left-nav-link:link {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .copyright {

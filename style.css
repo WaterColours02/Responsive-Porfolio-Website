@@ -134,19 +134,19 @@ body {
 
 .left-nav-box {
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 2fr);
 
   margin-top: 24vh;
   margin-left: 2.4rem;
 
-  gap: 8vh;
+  gap: 10vh;
 }
 
 .left-nav-link,
 .left-nav-link:link,
 .left-nav-link:visited {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 400;
 
   color: #222;
@@ -158,6 +158,10 @@ body {
 .left-nav-link:active {
   text-decoration: line-through;
   color: #555;
+}
+
+.linked-in:link {
+  content: "LinkedIn";
 }
 
 .copyright {
@@ -507,23 +511,7 @@ input:-webkit-autofill:active {
   font-weight: 300;
 }
 
-.projects-container:hover {
-  cursor: pointer;
-  background-color: #ccc;
-}
 
-.project-card {
-  padding: 1.8rem;
-  display: grid;
-  gap: 2.2rem;
-  margin-right: 3.2rem;
-}
-
-.project-description {
-  font-size: 1.2rem;
-  /* font-weight: 500; */
-  color: #ccc;
-}
 
 /* WORK SECTION  */
 /* PROJECT LINKS - GIANT TEXT  */
@@ -540,7 +528,7 @@ input:-webkit-autofill:active {
 .project-giant-link,
 .project-giant-link:link,
 .project-giant-link:visited {
-  font-size: 8vw;
+  font-size: 6vw;
   font-family: "cinzel";
   letter-spacing: 0.8rem;
   text-decoration: none;
@@ -580,6 +568,26 @@ input:-webkit-autofill:active {
   transform: scale(120%);
 }
 
+.projects-container:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.project-card {
+  padding: 1.8rem;
+  display: grid;
+  gap: 2.2rem;
+  margin-right: 3.2rem;
+
+}
+
+.project-description {
+  font-size: 1.4rem;
+  /* font-weight: 500; */
+  color: #ccc;
+  margin-left: 3.2rem
+}
+
 .tech-stack-icon {
   height: 2.4rem;
   width: 2.4rem;
@@ -616,10 +624,7 @@ input:-webkit-autofill:active {
   background: #c8c8c8;
 }
 
-.project-description {
-  font-size: 1rem;
-  margin-left: 2.2rem;
-}
+
 
 .project-tech-stack {
   display: flex;
@@ -627,13 +632,13 @@ input:-webkit-autofill:active {
 }
 
 .project-tech-stack p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-left: 2.2rem;
 
   color: #e9ecef;
 }
 .project-demo {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-left: 3.2rem;
   font-style: italic;
   /* margin-bottom: 1.8rem; */
@@ -643,12 +648,12 @@ input:-webkit-autofill:active {
 
 .project-links {
   display: grid;
-  grid-template-columns: 6fr 2fr;
+  grid-template-columns: 4fr 2fr;
 }
 
 .project-github:link {
   color: #dec68d;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
   transition: 0.4s;
 }
