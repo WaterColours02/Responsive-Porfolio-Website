@@ -81,7 +81,7 @@
   .contact-form {
     gap: 1.8rem;
     padding: 0 4.4rem;
-    margin: 4.2rem auto;
+    /* margin: 4.2rem auto; */
   }
 
   .contact-form input {
@@ -184,10 +184,6 @@
 
   .project-tech-stack {
     flex-wrap: wrap;
-  }
-
-  .section-text {
-    font-size: 1.8rem;
   }
 
   .skills-heading {
