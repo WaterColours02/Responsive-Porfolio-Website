@@ -159,12 +159,12 @@
 
   .project-giant-link-box {
     grid-row: 2 / span 1;
-    grid-column: 3 / span 11;
+    grid-column: 3 / span 6;
   }
 
   .project-giant-link,
   .project-giant-link:link {
-    font-size: 6vh;
+    font-size: 4vh;
   }
 
   .project-card {
@@ -226,12 +226,17 @@
     font-size: 1rem;
   }
 
+.project-giant-link-box {
+  margin-top: 2vw;
+}
+
+
   .giant-link-box {
-    grid-column: 3 / span 6;
+    grid-column: 3 / span 10;
   }
 
   .giant-link {
-    font-size: 6vh;
+    font-size: 4vw;
   }
 
   .left-nav-box {

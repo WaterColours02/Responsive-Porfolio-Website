@@ -473,14 +473,16 @@ input:-webkit-autofill:active {
 }
 
 .section-work-container {
-  /* margin-top: 20vh; */
-  margin: 10vh auto;
+
+  margin: 5vh auto;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
 
   gap: 4rem;
 
   transform: translateY(6rem);
+
+  /* overflow: scroll; */
 }
 
 .work-text-box {
@@ -501,26 +503,28 @@ input:-webkit-autofill:active {
 
 .work-description {
   color: #ccd6df;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 
 /* WORK SECTION  */
 /* PROJECT LINKS - GIANT TEXT  */
 .project-giant-link-box {
-  grid-column: 7 / span 13;
+  grid-column: 7 / span 11;
   display: grid;
   grid-template-rows: 1fr 1fr;
   line-height: 0.9;
   row-gap: 3.4rem;
   transform: translateY(2rem);
   gap: 8rem;
+
+  
 }
 
 .project-giant-link,
 .project-giant-link:link,
 .project-giant-link:visited {
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: "cinzel";
   letter-spacing: 0.8rem;
   text-decoration: none;
@@ -528,6 +532,11 @@ input:-webkit-autofill:active {
 
   transition: all 0.5s;
   cursor: pointer;
+
+}
+
+.project-container {
+  border: 3px solid white;
 }
 
 .project-giant-link:hover,
@@ -570,14 +579,18 @@ input:-webkit-autofill:active {
   display: grid;
   gap: 2.2rem;
   margin-right: 3.2rem;
+
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 4px;
+
 }
 
 .project-description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   /* font-weight: 500; */
   color: #ccc;
   margin-left: 3.2rem;
-  line-height: 1.6rem;
+  line-height: 2.0rem;
 }
 
 .tech-stack-icon {
@@ -586,7 +599,7 @@ input:-webkit-autofill:active {
 }
 
 .tech {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #ccd6df;
   margin-right: 1.2rem;
 }
