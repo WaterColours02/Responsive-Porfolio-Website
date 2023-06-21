@@ -296,15 +296,16 @@ body {
 
 .back-arrow {
   position: absolute;
-  top: 1.2rem;
-  left: 1.2rem;
+  z-index: 1000;
+  top: 1rem;
+  left: 1rem;
 
   font-size: 8rem;
   height: 4.8rem;
   width: 4.8rem;
   color: #e9ecef;
 
-  padding: 4.8rem;
+  padding: 2.2rem;
 
   cursor: pointer;
 }
@@ -474,11 +475,11 @@ input:-webkit-autofill:active {
 
 .section-work-container {
 
-  margin: 5vh auto;
+  margin: 2vh auto;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
 
-  gap: 4rem;
+  gap: 3rem;
 
   transform: translateY(6rem);
 
@@ -516,7 +517,7 @@ input:-webkit-autofill:active {
   line-height: 0.9;
   row-gap: 3.4rem;
   transform: translateY(2rem);
-  gap: 8rem;
+  gap: 4rem;
 
   
 }
