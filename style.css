@@ -471,6 +471,7 @@ input:-webkit-autofill:active {
   pointer-events: none;
   transition: all 0.5s ease-in;
   transform: translateY(-200%);
+  overflow-y: scroll;
 }
 
 .section-work-container {
@@ -500,6 +501,9 @@ input:-webkit-autofill:active {
   font-style: italic;
   font-weight: 500;
   text-transform: uppercase;
+
+
+  /* position: -webkit-sticky; */
 }
 
 .work-description {
